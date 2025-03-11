@@ -1,27 +1,32 @@
 ﻿using Microsoft.Data.SqlClient;
+using System.Xml.Linq;
 
 string connectionString = "Server=LENOVO-GAMING;Database=ORM_Demo;Trusted_Connection=True;TrustServerCertificate=True";
 
 var databaseName = "ORM_Demo";
 
-try
+if (!DatabaseExists(databaseName))
 {
-    using var conn = new SqlConnection(connectionString);
-    conn.Open();
-    Console.WriteLine($"Found and connected '{databaseName}'.");
-
-    CreateTables(conn);
-    //InsertData(conn);
-    //Buy(conn, "Gosho", "Laptop");
-    //Buy(conn, "Pesho", "Desktop");
-    //Buy(conn, "Alice", "Tablet");
-    //Buy(conn, "Gosho", "Tablet");
-    //Buy(conn, "Pesho", "Laptop");
-    GroupProductsByBuyerCount(conn);
+    Console.WriteLine("Creating db......");
+    CreateDB();
 }
-catch (Exception ex)
-{
 
+using var conn = new SqlConnection(connectionString);
+conn.Open();
+Console.WriteLine($"Found and connected '{databaseName}'.");
+
+CreateTables(conn);
+//InsertData(conn);
+//Buy(conn, "Gosho", "Laptop");
+//Buy(conn, "Pesho", "Desktop");
+//Buy(conn, "Alice", "Tablet");
+//Buy(conn, "Gosho", "Tablet");
+//Buy(conn, "Pesho", "Laptop");
+GroupProductsByBuyerCount(conn);
+
+
+void CreateDB()
+{
     var masterConnectionString = $"Server=LENOVO-GAMING;Database=master;Integrated Security=true;TrustServerCertificate=True;";
     using (var masterConn = new SqlConnection(masterConnectionString))
     {
@@ -32,8 +37,27 @@ catch (Exception ex)
     }
 
     using var conn = new SqlConnection(connectionString);
-    conn.Open();
-    Console.WriteLine($"Created and connected '{databaseName}'.");
+
+    Console.WriteLine($"Created '{databaseName}'.");
+}
+
+bool DatabaseExists(string dbName)
+{
+    string masterConnectionString = $"Server=LENOVO-GAMING;Database=master;Integrated Security=true;TrustServerCertificate=True;";
+    string check = @"SELECT COUNT(*) FROM sys.databases WHERE name = @DbName";
+
+    using var masterConn = new SqlConnection(masterConnectionString);
+    masterConn.Open();
+
+
+    var cmd = new SqlCommand(check, masterConn);
+
+    cmd.Parameters.AddWithValue("@DbName", dbName);
+    var a = cmd.ExecuteScalar();
+
+
+
+    return (int)cmd.ExecuteScalar() > 0;
 }
 
 void CreateTables(SqlConnection connection)

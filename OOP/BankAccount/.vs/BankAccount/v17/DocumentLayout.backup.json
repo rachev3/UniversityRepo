@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Uni C#\\BankAccount\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2D7787F2-9BAA-43BD-8479-D927E0BD4E94}|BankAccount\\BankAccount.csproj|c:\\users\\user\\desktop\\uni c#\\bankaccount\\bankaccount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D7787F2-9BAA-43BD-8479-D927E0BD4E94}|BankAccount\\BankAccount.csproj|solutionrelative:bankaccount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2D7787F2-9BAA-43BD-8479-D927E0BD4E94}|BankAccount\\BankAccount.csproj|c:\\users\\user\\desktop\\uni c#\\bankaccount\\bankaccount\\specialuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7787F2-9BAA-43BD-8479-D927E0BD4E94}|BankAccount\\BankAccount.csproj|solutionrelative:bankaccount\\specialuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2D7787F2-9BAA-43BD-8479-D927E0BD4E94}|BankAccount\\BankAccount.csproj|c:\\users\\user\\desktop\\uni c#\\bankaccount\\bankaccount\\currencyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D7787F2-9BAA-43BD-8479-D927E0BD4E94}|BankAccount\\BankAccount.csproj|solutionrelative:bankaccount\\currencyconverter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2D7787F2-9BAA-43BD-8479-D927E0BD4E94}|BankAccount\\BankAccount.csproj|c:\\users\\user\\desktop\\uni c#\\bankaccount\\bankaccount\\specialuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2D7787F2-9BAA-43BD-8479-D927E0BD4E94}|BankAccount\\BankAccount.csproj|solutionrelative:bankaccount\\specialuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2D7787F2-9BAA-43BD-8479-D927E0BD4E94}|BankAccount\\BankAccount.csproj|c:\\users\\user\\desktop\\uni c#\\bankaccount\\bankaccount\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2D7787F2-9BAA-43BD-8479-D927E0BD4E94}|BankAccount\\BankAccount.csproj|solutionrelative:bankaccount\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2D7787F2-9BAA-43BD-8479-D927E0BD4E94}|BankAccount\\BankAccount.csproj|c:\\users\\user\\desktop\\uni c#\\bankaccount\\bankaccount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2D7787F2-9BAA-43BD-8479-D927E0BD4E94}|BankAccount\\BankAccount.csproj|solutionrelative:bankaccount\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,7 +34,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "SpecialUser.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\BankAccount\\BankAccount\\SpecialUser.cs",
               "RelativeDocumentMoniker": "BankAccount\\SpecialUser.cs",
@@ -42,7 +42,8 @@
               "RelativeToolTip": "BankAccount\\SpecialUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:45:20.415Z"
+              "WhenOpened": "2025-03-10T14:45:20.415Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -54,29 +55,31 @@
               "RelativeToolTip": "BankAccount\\CurrencyConverter.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:41:11.832Z"
+              "WhenOpened": "2025-03-10T14:41:11.832Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\BankAccount\\BankAccount\\User.cs",
               "RelativeDocumentMoniker": "BankAccount\\User.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\BankAccount\\BankAccount\\User.cs",
               "RelativeToolTip": "BankAccount\\User.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAIwBQAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAywBQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:29:46.294Z"
+              "WhenOpened": "2025-03-10T14:29:46.294Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\BankAccount\\BankAccount\\Program.cs",
               "RelativeDocumentMoniker": "BankAccount\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\BankAccount\\BankAccount\\Program.cs*",
-              "RelativeToolTip": "BankAccount\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\BankAccount\\BankAccount\\Program.cs",
+              "RelativeToolTip": "BankAccount\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-10T14:29:12.946Z",
               "EditorCaption": ""

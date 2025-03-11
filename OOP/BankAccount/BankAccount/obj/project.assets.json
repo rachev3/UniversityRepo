@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Desktop\\Uni C#\\BankAccount\\BankAccount\\BankAccount.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\BankAccount\\BankAccount\\BankAccount.csproj",
       "projectName": "BankAccount",
-      "projectPath": "C:\\Users\\User\\Desktop\\Uni C#\\BankAccount\\BankAccount\\BankAccount.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\BankAccount\\BankAccount\\BankAccount.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Desktop\\Uni C#\\BankAccount\\BankAccount\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\BankAccount\\BankAccount\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
