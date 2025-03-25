@@ -127,3 +127,4 @@ C:\Users\User\Desktop\Uni C#\ORM\ORM_first\ORM_first\obj\Debug\net9.0\refint\ORM
 C:\Users\User\Desktop\Uni C#\ORM\ORM_first\ORM_first\obj\Debug\net9.0\ORM_first.pdb
 C:\Users\User\Desktop\Uni C#\ORM\ORM_first\ORM_first\obj\Debug\net9.0\ORM_first.genruntimeconfig.cache
 C:\Users\User\Desktop\Uni C#\ORM\ORM_first\ORM_first\obj\Debug\net9.0\ref\ORM_first.dll
+C:\Users\User\Desktop\Uni C#\ORM\ORM_first\ORM_first\bin\Debug\net9.0\Microsoft.Extensions.DependencyInjection.dll

@@ -1,0 +1,13 @@
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\bin\Debug\net9.0\AirCompanySystem.deps.json
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\bin\Debug\net9.0\AirCompanySystem.dll
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\bin\Debug\net9.0\AirCompanySystem.pdb
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\obj\Debug\net9.0\AirCompanySystem.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\obj\Debug\net9.0\AirCompanySystem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\obj\Debug\net9.0\AirCompanySystem.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\obj\Debug\net9.0\AirCompanySystem.AssemblyInfo.cs
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\obj\Debug\net9.0\AirCompanySystem.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\obj\Debug\net9.0\AirCompanySystem.sourcelink.json
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\obj\Debug\net9.0\AirCompanySystem.dll
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\obj\Debug\net9.0\refint\AirCompanySystem.dll
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\obj\Debug\net9.0\AirCompanySystem.pdb
+C:\Users\User\Desktop\Uni C#\ORM\AirCompanySystem\AirComapnySystem\obj\Debug\net9.0\ref\AirCompanySystem.dll
