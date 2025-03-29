@@ -1,5 +1,6 @@
 ﻿using AirCompanySystem.BaseModels;
 using AirCompanySystem.DataContext.Contracts;
+using AirCompanySystem.DataContext.Seed;
 using AirCompanySystem.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -16,7 +17,7 @@ namespace AirComapnySystem.DataContext
         public DbSet<Airport> Airports { get; set; }
         public DbSet<City> Cities { get; set; }
         public DbSet<Continent> Continents { get; set; }
-        public DbSet<Country> Con { get; set; }
+        public DbSet<Country> Countries { get; set; }
         public DbSet<Crew> Crews { get; set; }
         public DbSet<Flight> Flights { get; set; }
         public DbSet<FlightStatus> FlightStatuses { get; set; }
@@ -33,15 +34,33 @@ namespace AirComapnySystem.DataContext
         }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-            //modelBuilder.Entity<Payroll>().HasOne<Ticket>().WithOne(x=>x.Payroll).OnDelete(DeleteBehavior.Cascade);
 
-            //DECORATORS, Interceptors
+
+            DataSeed.ExampleSeed(modelBuilder);
             base.OnModelCreating(modelBuilder);
         }
         public override int SaveChanges()
         {
             // TODO: 
-            //var entries = ChangeTracker.Entries().Where(x=>x.Entity.GetType() is IBaseModel)
+            var entries = ChangeTracker.Entries().Where(x => x.Entity.GetType() is IBaseModel).ToList();
+
+            foreach (var entry in entries)
+            {
+                IBaseModel model = (IBaseModel)entry.Entity;
+                if (entry.State == EntityState.Added)
+                {
+                    model.CreatedAt = DateTimeOffset.Now;
+                }
+                else if (entry.State == EntityState.Modified)
+                {
+                    model.UpdatedAt = DateTimeOffset.Now;
+                }
+                else if (entry.State == EntityState.Deleted)
+                {
+                    model.DeletedAt = DateTimeOffset.Now;
+                    entry.State = EntityState.Modified;
+                }
+            }
 
 
             return base.SaveChanges();

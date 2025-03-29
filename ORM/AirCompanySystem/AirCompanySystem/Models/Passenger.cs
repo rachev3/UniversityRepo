@@ -12,6 +12,8 @@ namespace AirCompanySystem.Models
     {
         [MaxLength(150)]
         public string Name { get; set; }
-        public int TicketId { get; set; }
+
+        // One passenger can have many tickets
+        public virtual ICollection<Ticket> Tickets { get; set; } = new List<Ticket>();
     }
 }

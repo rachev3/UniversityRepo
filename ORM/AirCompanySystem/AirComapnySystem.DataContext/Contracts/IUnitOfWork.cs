@@ -8,6 +8,6 @@ namespace AirCompanySystem.DataContext.Contracts
 {
     public interface IUnitOfWork
     {
-        int SaveChanges();
+       public int SaveChanges();
     }
 }

@@ -12,8 +12,8 @@ namespace AirCompanySystem.Models
     {
         [MaxLength(100)]
         public string Name { get; set; }
-        public int RoleId { get; set; }
-        public Role Role { get; set; } = null!;
+        public int? RoleId { get; set; }
+        public Role? Role { get; set; } = null!;
         public ICollection<Airplane> Airplanes { get; set; } = new List<Airplane>();
     }
 }

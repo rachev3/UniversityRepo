@@ -12,8 +12,8 @@ namespace AirCompanySystem.Models
     {
         [MaxLength(100)]
         public string CountryName { get; set; } 
-        public int ContinentId { get; set; }
-        public Continent Continent { get; set; } = null!;
+        public int? ContinentId { get; set; }
+        public Continent? Continent { get; set; } = null!;
         public ICollection<City> Cities { get; set; } = new List<City>();
     }
 }

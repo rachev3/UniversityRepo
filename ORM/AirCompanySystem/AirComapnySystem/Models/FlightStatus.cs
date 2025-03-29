@@ -12,7 +12,7 @@ namespace AirCompanySystem.Models
     {
         [MaxLength(100)]
         public string Status { get; set; } = null!;
-        public ICollection<FlightStatusChange> FlightStatusChanges { get; set; }
+        public ICollection<FlightStatusChange> FlightStatusChanges { get; set; } = new List<FlightStatusChange>();
 
     }
 }

@@ -19,12 +19,16 @@ namespace AirCompanySystem.Models
         public ushort SeatNumber { get; set; }
         //public DateTimeOffset FlightDate { get; set; }
 
-        
-        public int PayrollId { get; set; }
-        public Payroll Payroll { get; set; } = null!;
-        public int FlightId { get; set; }
-        public Flight Flight { get; set; } = null!;
-        public int PassengerId { get; set; }
-        public Passenger Passenger { get; set; } = null!;
+
+        public int? FlightId { get; set; }
+        public Flight? Flight { get; set; } = null!;
+
+        // Many tickets belong to one passenger
+        public int? PassengerId { get; set; }
+        public Passenger? Passenger { get; set; } = null!;
+
+        // One ticket has one payroll
+        public Payroll? Payroll { get; set; }
+
     }
 }

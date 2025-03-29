@@ -13,10 +13,10 @@ namespace AirCompanySystem.Models
         public DateTimeOffset FlightDate { get; set; }
         public ushort PassengerCount { get; set; }
 
-        public ICollection<Crew> Crews { get; set; }
-        public ICollection<FlightStatusChange> FlightStatusChanges { get; set; }
-        public ICollection<Passenger> Passengers { get; set; }
-        public int AirplaneId { get; set; }
-        public Airplane Airplane { get; set; } = new Airplane();
+        public ICollection<Crew> Crews { get; set; } = new List<Crew>();
+        public ICollection<FlightStatusChange> FlightStatusChanges { get; set; } = new List<FlightStatusChange>();
+        public ICollection<Passenger> Passengers { get; set; } = new List<Passenger>();
+        public int? AirplaneId { get; set; }
+        public Airplane? Airplane { get; set; }
     }
 }

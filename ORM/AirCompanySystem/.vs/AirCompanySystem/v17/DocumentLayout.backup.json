@@ -3,28 +3,56 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250325093541_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirComapnySystem.DataContext\\Migrations\\20250325093541_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081804_seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirComapnySystem.DataContext\\Migrations\\20250329081804_seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B980879A-046B-450A-B02B-C105DBF6A446}|AirComapnySystem.DataContext\\AirCompanySystem.DataContext.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\aircompanysystem\\aircomapnysystem.datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B980879A-046B-450A-B02B-C105DBF6A446}|AirComapnySystem.DataContext\\AirCompanySystem.DataContext.csproj|solutionrelative:aircomapnysystem.datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081743_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirComapnySystem.DataContext\\Migrations\\20250329081743_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081640_seed2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirComapnySystem.DataContext\\Migrations\\20250329081640_seed2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081621_Seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirComapnySystem.DataContext\\Migrations\\20250329081621_Seed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081551_totalChange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirComapnySystem.DataContext\\Migrations\\20250329081551_totalChange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B980879A-046B-450A-B02B-C105DBF6A446}|AirComapnySystem.DataContext\\AirCompanySystem.DataContext.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\aircompanysystem\\aircomapnysystem.datacontext\\seed\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B980879A-046B-450A-B02B-C105DBF6A446}|AirComapnySystem.DataContext\\AirCompanySystem.DataContext.csproj|solutionrelative:aircomapnysystem.datacontext\\seed\\dataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{921229CB-E77E-4893-801D-58FF3C0E996B}|AirComapnySystem\\AirCompanySystem.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\aircompanysystem\\aircomapnysystem\\models\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{921229CB-E77E-4893-801D-58FF3C0E996B}|AirComapnySystem\\AirCompanySystem.csproj|solutionrelative:aircomapnysystem\\models\\payroll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081415_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirComapnySystem.DataContext\\Migrations\\20250329081415_question.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{921229CB-E77E-4893-801D-58FF3C0E996B}|AirComapnySystem\\AirCompanySystem.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\aircompanysystem\\aircomapnysystem\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{921229CB-E77E-4893-801D-58FF3C0E996B}|AirComapnySystem\\AirCompanySystem.csproj|solutionrelative:aircomapnysystem\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B980879A-046B-450A-B02B-C105DBF6A446}|AirComapnySystem.DataContext\\AirComapnySystem.DataContext.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\aircompanysystem\\aircomapnysystem.datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B980879A-046B-450A-B02B-C105DBF6A446}|AirComapnySystem.DataContext\\AirComapnySystem.DataContext.csproj|solutionrelative:aircomapnysystem.datacontext\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329080945_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirComapnySystem.DataContext\\Migrations\\20250329080945_Initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{921229CB-E77E-4893-801D-58FF3C0E996B}|AirComapnySystem\\AirCompanySystem.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\aircompanysystem\\aircomapnysystem\\aircompanysystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{921229CB-E77E-4893-801D-58FF3C0E996B}|AirComapnySystem\\AirCompanySystem.csproj|solutionrelative:aircomapnysystem\\aircompanysystem.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329080445_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirComapnySystem.DataContext\\Migrations\\20250329080445_Init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B980879A-046B-450A-B02B-C105DBF6A446}|AirComapnySystem.DataContext\\AirCompanySystem.DataContext.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\aircompanysystem\\aircomapnysystem.datacontext\\aircompanysystem.datacontext.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{B980879A-046B-450A-B02B-C105DBF6A446}|AirComapnySystem.DataContext\\AirCompanySystem.DataContext.csproj|solutionrelative:aircomapnysystem.datacontext\\aircompanysystem.datacontext.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B980879A-046B-450A-B02B-C105DBF6A446}|AirComapnySystem.DataContext\\AirComapnySystem.DataContext.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\aircompanysystem\\aircomapnysystem.datacontext\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B980879A-046B-450A-B02B-C105DBF6A446}|AirComapnySystem.DataContext\\AirComapnySystem.DataContext.csproj|solutionrelative:aircomapnysystem.datacontext\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329080305_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AirComapnySystem.DataContext\\Migrations\\20250329080305_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -39,84 +67,175 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250325093541_Init.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250325093541_Init.cs",
-              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\Migrations\\20250325093541_Init.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250325093541_Init.cs",
-              "RelativeToolTip": "AirComapnySystem.DataContext\\Migrations\\20250325093541_Init.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "20250329081804_seed.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081804_seed.cs",
+              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\Migrations\\20250329081804_seed.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081804_seed.cs",
+              "RelativeToolTip": "AirComapnySystem.DataContext\\Migrations\\20250329081804_seed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T09:35:41.804Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AirCompanySystem.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem\\AirCompanySystem.csproj",
-              "RelativeDocumentMoniker": "AirComapnySystem\\AirCompanySystem.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem\\AirCompanySystem.csproj",
-              "RelativeToolTip": "AirComapnySystem\\AirCompanySystem.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-25T09:33:39.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "AirComapnySystem\\Models\\Ticket.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem\\Models\\Ticket.cs",
-              "RelativeToolTip": "AirComapnySystem\\Models\\Ticket.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwBcAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T09:34:29.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AirCompanySystem.DataContext.csproj",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\AirCompanySystem.DataContext.csproj",
-              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\AirCompanySystem.DataContext.csproj",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\AirCompanySystem.DataContext.csproj",
-              "RelativeToolTip": "AirComapnySystem.DataContext\\AirCompanySystem.DataContext.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-25T09:30:19.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Program.cs",
-              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Program.cs",
-              "RelativeToolTip": "AirComapnySystem.DataContext\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T09:22:24.104Z",
+              "WhenOpened": "2025-03-29T08:18:04.919Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "20250329081743_init.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081743_init.cs",
+              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\Migrations\\20250329081743_init.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081743_init.cs",
+              "RelativeToolTip": "AirComapnySystem.DataContext\\Migrations\\20250329081743_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:17:43.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250329081640_seed2.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081640_seed2.cs",
+              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\Migrations\\20250329081640_seed2.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081640_seed2.cs",
+              "RelativeToolTip": "AirComapnySystem.DataContext\\Migrations\\20250329081640_seed2.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:16:40.468Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "20250329081621_Seed.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081621_Seed.cs",
+              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\Migrations\\20250329081621_Seed.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081621_Seed.cs",
+              "RelativeToolTip": "AirComapnySystem.DataContext\\Migrations\\20250329081621_Seed.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:16:21.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250329081551_totalChange.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081551_totalChange.cs",
+              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\Migrations\\20250329081551_totalChange.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081551_totalChange.cs",
+              "RelativeToolTip": "AirComapnySystem.DataContext\\Migrations\\20250329081551_totalChange.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:15:51.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "DataSeed.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Seed\\DataSeed.cs",
+              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\Seed\\DataSeed.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Seed\\DataSeed.cs",
+              "RelativeToolTip": "AirComapnySystem.DataContext\\Seed\\DataSeed.cs",
+              "ViewState": "AgIAAPUAAAAAAAAAAAAuwAABAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:11:12.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\ApplicationDbContext.cs",
               "RelativeToolTip": "AirComapnySystem.DataContext\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA8AAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAABkAAAAAAAAAAAA2wCYAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-25T09:16:25.536Z",
+              "WhenOpened": "2025-03-29T08:02:18.513Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250329081415_question.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081415_question.cs",
+              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\Migrations\\20250329081415_question.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329081415_question.cs",
+              "RelativeToolTip": "AirComapnySystem.DataContext\\Migrations\\20250329081415_question.cs",
+              "ViewState": "AgIAAKsAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:14:15.988Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20250329080945_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329080945_Initial.cs",
+              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\Migrations\\20250329080945_Initial.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329080945_Initial.cs",
+              "RelativeToolTip": "AirComapnySystem.DataContext\\Migrations\\20250329080945_Initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:09:45.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250329080445_Init.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329080445_Init.cs",
+              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\Migrations\\20250329080445_Init.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329080445_Init.cs",
+              "RelativeToolTip": "AirComapnySystem.DataContext\\Migrations\\20250329080445_Init.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAQwMgBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:04:45.398Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250329080305_initial.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329080305_initial.cs",
+              "RelativeDocumentMoniker": "AirComapnySystem.DataContext\\Migrations\\20250329080305_initial.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem.DataContext\\Migrations\\20250329080305_initial.cs",
+              "RelativeToolTip": "AirComapnySystem.DataContext\\Migrations\\20250329080305_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:03:05.736Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Payroll.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem\\Models\\Payroll.cs",
+              "RelativeDocumentMoniker": "AirComapnySystem\\Models\\Payroll.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem\\Models\\Payroll.cs",
+              "RelativeToolTip": "AirComapnySystem\\Models\\Payroll.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:01:41.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "AirComapnySystem\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\AirCompanySystem\\AirComapnySystem\\Models\\Ticket.cs",
+              "RelativeToolTip": "AirComapnySystem\\Models\\Ticket.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAA5wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-29T08:00:49.312Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             }
           ]
         }

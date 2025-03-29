@@ -12,8 +12,8 @@ namespace AirCompanySystem.Models
     {
         [MaxLength(100)]
         public string Name { get; set; }
-        public int CountryId { get; set; }
-        public Country Country { get; set; } = null!;
+        public int? CountryId { get; set; }
+        public Country? Country { get; set; } = null!;
         public ICollection<Airport> Airports { get; set; } = new List<Airport>();
     }
 }

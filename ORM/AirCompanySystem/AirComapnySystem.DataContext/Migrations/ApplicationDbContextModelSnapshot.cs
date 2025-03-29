@@ -50,6 +50,26 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.HasIndex("CrewId");
 
                     b.ToTable("Airplanes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(6575), new TimeSpan(0, 0, 0, 0, 0)),
+                            SeatsCount = 180
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(6585), new TimeSpan(0, 0, 0, 0, 0)),
+                            SeatsCount = 220
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(6587), new TimeSpan(0, 0, 0, 0, 0)),
+                            SeatsCount = 150
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.Airport", b =>
@@ -68,7 +88,7 @@ namespace AirCompanySystem.DataContext.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<int>("CityId")
+                    b.Property<int?>("CityId")
                         .HasColumnType("int");
 
                     b.Property<DateTimeOffset>("CreatedAt")
@@ -87,6 +107,64 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.HasIndex("CityId");
 
                     b.ToTable("Airports");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AirportName = "Sofia International Airport",
+                            CityId = 1,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(4813), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AirportName = "Charles de Gaulle Airport",
+                            CityId = 2,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(4825), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 3,
+                            AirportName = "Adolfo Suárez Madrid–Barajas Airport",
+                            CityId = 3,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(4827), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 4,
+                            AirportName = "Leonardo da Vinci International Airport",
+                            CityId = 4,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(4828), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 5,
+                            AirportName = "Henri Coandă International Airport",
+                            CityId = 5,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(4830), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 6,
+                            AirportName = "Haneda Airport",
+                            CityId = 6,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(4897), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 7,
+                            AirportName = "Beijing Capital International Airport",
+                            CityId = 7,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(4899), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 8,
+                            AirportName = "Indira Gandhi International Airport",
+                            CityId = 8,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(4900), new TimeSpan(0, 0, 0, 0, 0))
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.City", b =>
@@ -97,7 +175,7 @@ namespace AirCompanySystem.DataContext.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("CountryId")
+                    b.Property<int?>("CountryId")
                         .HasColumnType("int");
 
                     b.Property<DateTimeOffset>("CreatedAt")
@@ -119,6 +197,64 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.HasIndex("CountryId");
 
                     b.ToTable("Cities");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CountryId = 1,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(3898), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Sofia"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CountryId = 2,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(3912), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Paris"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CountryId = 3,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(3914), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Madrid"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CountryId = 4,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(3915), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Rome"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CountryId = 5,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(3917), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Bucharest"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CountryId = 6,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(3920), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Tokyo"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            CountryId = 7,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(3922), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Beijing"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            CountryId = 8,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(3923), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "New Delhi"
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.Continent", b =>
@@ -146,6 +282,20 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Continents");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ContinentName = "Europe",
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(1613), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ContinentName = "Asia",
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(1898), new TimeSpan(0, 0, 0, 0, 0))
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.Country", b =>
@@ -156,7 +306,7 @@ namespace AirCompanySystem.DataContext.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("ContinentId")
+                    b.Property<int?>("ContinentId")
                         .HasColumnType("int");
 
                     b.Property<string>("CountryName")
@@ -177,7 +327,65 @@ namespace AirCompanySystem.DataContext.Migrations
 
                     b.HasIndex("ContinentId");
 
-                    b.ToTable("Con");
+                    b.ToTable("Countries");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ContinentId = 1,
+                            CountryName = "Bulgaria",
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(2714), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ContinentId = 1,
+                            CountryName = "France",
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(2929), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 3,
+                            ContinentId = 1,
+                            CountryName = "Spain",
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(2932), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 4,
+                            ContinentId = 1,
+                            CountryName = "Italy",
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(2933), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 5,
+                            ContinentId = 1,
+                            CountryName = "Romania",
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(2935), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 6,
+                            ContinentId = 2,
+                            CountryName = "Japan",
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(2939), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 7,
+                            ContinentId = 2,
+                            CountryName = "China",
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(2940), new TimeSpan(0, 0, 0, 0, 0))
+                        },
+                        new
+                        {
+                            Id = 8,
+                            ContinentId = 2,
+                            CountryName = "India",
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(2942), new TimeSpan(0, 0, 0, 0, 0))
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.Crew", b =>
@@ -202,7 +410,7 @@ namespace AirCompanySystem.DataContext.Migrations
                         .HasMaxLength(100)
                         .HasColumnType("nvarchar(100)");
 
-                    b.Property<int>("RoleId")
+                    b.Property<int?>("RoleId")
                         .HasColumnType("int");
 
                     b.Property<DateTimeOffset?>("UpdatedAt")
@@ -215,6 +423,36 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.HasIndex("RoleId");
 
                     b.ToTable("Crews");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(6122), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "John Smith",
+                            RoleId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(6132), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Maria Garcia",
+                            RoleId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(6134), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "James Wilson",
+                            RoleId = 3
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(6135), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Sarah Johnson",
+                            RoleId = 3
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.Flight", b =>
@@ -225,7 +463,7 @@ namespace AirCompanySystem.DataContext.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
-                    b.Property<int>("AirplaneId")
+                    b.Property<int?>("AirplaneId")
                         .HasColumnType("int");
 
                     b.Property<int?>("AirportId")
@@ -256,6 +494,26 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.HasIndex("AirportId");
 
                     b.ToTable("Flights");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            AirplaneId = 1,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(8740), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDate = new DateTimeOffset(new DateTime(2025, 3, 30, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(7729), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDuration = 120,
+                            PassengerCount = 150
+                        },
+                        new
+                        {
+                            Id = 2,
+                            AirplaneId = 2,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(8904), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDate = new DateTimeOffset(new DateTime(2025, 3, 31, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(8893), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightDuration = 180,
+                            PassengerCount = 200
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.FlightStatus", b =>
@@ -283,6 +541,44 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("FlightStatuses");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(7071), new TimeSpan(0, 0, 0, 0, 0)),
+                            Status = "Scheduled"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(7078), new TimeSpan(0, 0, 0, 0, 0)),
+                            Status = "Boarding"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(7080), new TimeSpan(0, 0, 0, 0, 0)),
+                            Status = "In Flight"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(7081), new TimeSpan(0, 0, 0, 0, 0)),
+                            Status = "Landed"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(7082), new TimeSpan(0, 0, 0, 0, 0)),
+                            Status = "Delayed"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(7085), new TimeSpan(0, 0, 0, 0, 0)),
+                            Status = "Cancelled"
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.FlightStatusChange", b =>
@@ -302,10 +598,10 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.Property<DateTimeOffset?>("DeletedAt")
                         .HasColumnType("datetimeoffset");
 
-                    b.Property<int>("FlightId")
+                    b.Property<int?>("FlightId")
                         .HasColumnType("int");
 
-                    b.Property<int>("FlightStatusId")
+                    b.Property<int?>("FlightStatusId")
                         .HasColumnType("int");
 
                     b.Property<DateTimeOffset?>("UpdatedAt")
@@ -318,6 +614,24 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.HasIndex("FlightStatusId");
 
                     b.ToTable("FlightStatusChanges");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            ChangeAt = new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Utc).AddTicks(9370),
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(9614), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightId = 1,
+                            FlightStatusId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            ChangeAt = new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Utc).AddTicks(9627),
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(9627), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightId = 2,
+                            FlightStatusId = 1
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.Passenger", b =>
@@ -342,9 +656,6 @@ namespace AirCompanySystem.DataContext.Migrations
                         .HasMaxLength(150)
                         .HasColumnType("nvarchar(150)");
 
-                    b.Property<int>("TicketId")
-                        .HasColumnType("int");
-
                     b.Property<DateTimeOffset?>("UpdatedAt")
                         .HasColumnType("datetimeoffset");
 
@@ -353,6 +664,26 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.HasIndex("FlightId");
 
                     b.ToTable("Passengers");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 252, DateTimeKind.Unspecified).AddTicks(149), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Alex Brown"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 252, DateTimeKind.Unspecified).AddTicks(157), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Emma Wilson"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 252, DateTimeKind.Unspecified).AddTicks(159), new TimeSpan(0, 0, 0, 0, 0)),
+                            Name = "Michael Chen"
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.Payroll", b =>
@@ -369,14 +700,14 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.Property<DateTimeOffset?>("DeletedAt")
                         .HasColumnType("datetimeoffset");
 
-                    b.Property<int>("PassengerId")
+                    b.Property<int?>("PassengerId")
                         .HasColumnType("int");
 
-                    b.Property<int>("TicketId")
+                    b.Property<int?>("TicketId")
                         .HasColumnType("int");
 
-                    b.Property<decimal>("Total")
-                        .HasColumnType("decimal(18,2)");
+                    b.Property<double>("Total")
+                        .HasColumnType("float");
 
                     b.Property<DateTimeOffset?>("UpdatedAt")
                         .HasColumnType("datetimeoffset");
@@ -385,9 +716,29 @@ namespace AirCompanySystem.DataContext.Migrations
 
                     b.HasIndex("PassengerId");
 
-                    b.HasIndex("TicketId");
+                    b.HasIndex("TicketId")
+                        .IsUnique()
+                        .HasFilter("[TicketId] IS NOT NULL");
 
                     b.ToTable("Payrolls");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 252, DateTimeKind.Unspecified).AddTicks(1670), new TimeSpan(0, 0, 0, 0, 0)),
+                            PassengerId = 1,
+                            TicketId = 1,
+                            Total = 299.99000000000001
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 252, DateTimeKind.Unspecified).AddTicks(1681), new TimeSpan(0, 0, 0, 0, 0)),
+                            PassengerId = 2,
+                            TicketId = 2,
+                            Total = 499.99000000000001
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.Role", b =>
@@ -415,6 +766,32 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(5509), new TimeSpan(0, 0, 0, 0, 0)),
+                            RoleName = "Pilot"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(5521), new TimeSpan(0, 0, 0, 0, 0)),
+                            RoleName = "Co-Pilot"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(5523), new TimeSpan(0, 0, 0, 0, 0)),
+                            RoleName = "Flight Attendant"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 251, DateTimeKind.Unspecified).AddTicks(5538), new TimeSpan(0, 0, 0, 0, 0)),
+                            RoleName = "Engineer"
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.Ticket", b =>
@@ -431,13 +808,10 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.Property<DateTimeOffset?>("DeletedAt")
                         .HasColumnType("datetimeoffset");
 
-                    b.Property<int>("FlightId")
+                    b.Property<int?>("FlightId")
                         .HasColumnType("int");
 
-                    b.Property<int>("PassengerId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PassengerId1")
+                    b.Property<int?>("PassengerId")
                         .HasColumnType("int");
 
                     b.Property<int>("SeatNumber")
@@ -459,9 +833,29 @@ namespace AirCompanySystem.DataContext.Migrations
 
                     b.HasIndex("FlightId");
 
-                    b.HasIndex("PassengerId1");
+                    b.HasIndex("PassengerId");
 
                     b.ToTable("Tickets");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 252, DateTimeKind.Unspecified).AddTicks(1029), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightId = 1,
+                            SeatNumber = 15,
+                            TicketPrice = 299.99m,
+                            Type = "Economy"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            CreatedAt = new DateTimeOffset(new DateTime(2025, 3, 29, 8, 18, 4, 252, DateTimeKind.Unspecified).AddTicks(1044), new TimeSpan(0, 0, 0, 0, 0)),
+                            FlightId = 1,
+                            SeatNumber = 3,
+                            TicketPrice = 499.99m,
+                            Type = "Business"
+                        });
                 });
 
             modelBuilder.Entity("AirCompanySystem.Models.Airplane", b =>
@@ -479,9 +873,7 @@ namespace AirCompanySystem.DataContext.Migrations
 
                     b.HasOne("AirCompanySystem.Models.City", "City")
                         .WithMany("Airports")
-                        .HasForeignKey("CityId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CityId");
 
                     b.Navigation("City");
                 });
@@ -490,9 +882,7 @@ namespace AirCompanySystem.DataContext.Migrations
                 {
                     b.HasOne("AirCompanySystem.Models.Country", "Country")
                         .WithMany("Cities")
-                        .HasForeignKey("CountryId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("CountryId");
 
                     b.Navigation("Country");
                 });
@@ -501,9 +891,7 @@ namespace AirCompanySystem.DataContext.Migrations
                 {
                     b.HasOne("AirCompanySystem.Models.Continent", "Continent")
                         .WithMany("Countries")
-                        .HasForeignKey("ContinentId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("ContinentId");
 
                     b.Navigation("Continent");
                 });
@@ -516,9 +904,7 @@ namespace AirCompanySystem.DataContext.Migrations
 
                     b.HasOne("AirCompanySystem.Models.Role", "Role")
                         .WithMany("Crews")
-                        .HasForeignKey("RoleId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("RoleId");
 
                     b.Navigation("Role");
                 });
@@ -527,9 +913,7 @@ namespace AirCompanySystem.DataContext.Migrations
                 {
                     b.HasOne("AirCompanySystem.Models.Airplane", "Airplane")
                         .WithMany("Flights")
-                        .HasForeignKey("AirplaneId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("AirplaneId");
 
                     b.HasOne("AirCompanySystem.Models.Airport", null)
                         .WithMany("Flights")
@@ -542,15 +926,11 @@ namespace AirCompanySystem.DataContext.Migrations
                 {
                     b.HasOne("AirCompanySystem.Models.Flight", "Flight")
                         .WithMany("FlightStatusChanges")
-                        .HasForeignKey("FlightId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("FlightId");
 
                     b.HasOne("AirCompanySystem.Models.FlightStatus", "FlightStatus")
                         .WithMany("FlightStatusChanges")
-                        .HasForeignKey("FlightStatusId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("FlightStatusId");
 
                     b.Navigation("Flight");
 
@@ -568,15 +948,11 @@ namespace AirCompanySystem.DataContext.Migrations
                 {
                     b.HasOne("AirCompanySystem.Models.Passenger", "Passenger")
                         .WithMany()
-                        .HasForeignKey("PassengerId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("PassengerId");
 
                     b.HasOne("AirCompanySystem.Models.Ticket", "Ticket")
-                        .WithMany()
-                        .HasForeignKey("TicketId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .WithOne("Payroll")
+                        .HasForeignKey("AirCompanySystem.Models.Payroll", "TicketId");
 
                     b.Navigation("Passenger");
 
@@ -587,15 +963,11 @@ namespace AirCompanySystem.DataContext.Migrations
                 {
                     b.HasOne("AirCompanySystem.Models.Flight", "Flight")
                         .WithMany()
-                        .HasForeignKey("FlightId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .HasForeignKey("FlightId");
 
                     b.HasOne("AirCompanySystem.Models.Passenger", "Passenger")
-                        .WithMany()
-                        .HasForeignKey("PassengerId1")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
+                        .WithMany("Tickets")
+                        .HasForeignKey("PassengerId");
 
                     b.Navigation("Flight");
 
@@ -648,9 +1020,19 @@ namespace AirCompanySystem.DataContext.Migrations
                     b.Navigation("FlightStatusChanges");
                 });
 
+            modelBuilder.Entity("AirCompanySystem.Models.Passenger", b =>
+                {
+                    b.Navigation("Tickets");
+                });
+
             modelBuilder.Entity("AirCompanySystem.Models.Role", b =>
                 {
                     b.Navigation("Crews");
+                });
+
+            modelBuilder.Entity("AirCompanySystem.Models.Ticket", b =>
+                {
+                    b.Navigation("Payroll");
                 });
 #pragma warning restore 612, 618
         }
