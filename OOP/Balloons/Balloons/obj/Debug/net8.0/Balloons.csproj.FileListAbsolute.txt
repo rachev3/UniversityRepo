@@ -26,3 +26,18 @@ C:\Users\User\Downloads\Balloons-main\Balloons-main\Balloons\obj\Debug\net8.0\re
 C:\Users\User\Downloads\Balloons-main\Balloons-main\Balloons\obj\Debug\net8.0\Balloons.pdb
 C:\Users\User\Downloads\Balloons-main\Balloons-main\Balloons\obj\Debug\net8.0\Balloons.genruntimeconfig.cache
 C:\Users\User\Downloads\Balloons-main\Balloons-main\Balloons\obj\Debug\net8.0\ref\Balloons.dll
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\obj\Debug\net8.0\Balloons.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\obj\Debug\net8.0\Balloons.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\obj\Debug\net8.0\Balloons.AssemblyInfo.cs
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\obj\Debug\net8.0\Balloons.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\obj\Debug\net8.0\Balloons.sourcelink.json
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\obj\Debug\net8.0\Balloons.dll
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\obj\Debug\net8.0\refint\Balloons.dll
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\obj\Debug\net8.0\Balloons.pdb
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\bin\Debug\net8.0\Balloons.exe
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\bin\Debug\net8.0\Balloons.deps.json
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\bin\Debug\net8.0\Balloons.runtimeconfig.json
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\bin\Debug\net8.0\Balloons.dll
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\bin\Debug\net8.0\Balloons.pdb
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\obj\Debug\net8.0\Balloons.genruntimeconfig.cache
+C:\Users\User\Desktop\Uni C#\OOP\Balloons\Balloons\obj\Debug\net8.0\ref\Balloons.dll

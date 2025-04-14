@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Balloons")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4dee9933c9fed72485807d5df6b77bd1a4ed622e")]
 [assembly: System.Reflection.AssemblyProductAttribute("Balloons")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Balloons")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

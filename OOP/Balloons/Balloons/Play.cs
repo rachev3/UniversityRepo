@@ -7,126 +7,132 @@ using System.Threading.Tasks;
 
 namespace Balloons
 {
-    public class Play : EventArgs
+    public class Play
     {
-        List<Balloon> balloons = new List<Balloon>();
-        List<Arrow> arrows = new List<Arrow>();
-        int scoreRedTeam = 0;
-        int scoreBlueTeam = 0;
+        private List<Balloon> Balloons = new List<Balloon>();
+        private List<Arrow> Arrows = new List<Arrow>();
+        private int scoreRedTeam = 0;
+        private int scoreBlueTeam = 0;
+        private bool skipTurnRed = false;
+        private bool skipTurnBlue = false;
 
+        public event EventHandler<PlayEventArgs> PlayTurnHappened;
 
-
-        public void PlayRotaion()
+        public void Game()
         {
-            Random random = new Random();
-            Random balloonColor = new Random();
+            PlayRotation();
 
-            for (int i = 0; i < 20; i++)
+            for (int i = 0; i < Balloons.Count; i++)
             {
-                if (i % 2 == 0)
+                Turn(i);
+            }
+
+            Console.WriteLine(ToString());
+        }
+
+        private void Turn(int i)
+        {
+            var arrow = Arrows[i];
+            var balloon = Balloons[i];
+            string result = string.Empty;
+
+            if (arrow.Color == "Red")
+            {
+                if (skipTurnRed)
                 {
-                    switch (balloonColor.Next(1, 2))
-                    {
-                        case 1:
-                            balloons.Add(new Balloon("Red", random.Next(1, 20)));
-                            break;
-                        case 2:
-                            balloons.Add(new Balloon("Black", random.Next(1, 20)));
-                            break;
-
-                    }
-
-                    arrows.Add(new Arrow("Red", random.Next(1, 20)));
+                    result = "Red skipped.";
+                    skipTurnRed = false;
+                }
+                else if (balloon.Color == "Red" && arrow.Size >= balloon.Size)
+                {
+                    scoreRedTeam++;
+                    result = "Red scored a point.";
+                }
+                else if (balloon.Color == "Black" && arrow.Size >= balloon.Size)
+                {
+                    skipTurnRed = true;
+                    result = "Red hit black balloon. Skips next turn.";
                 }
                 else
                 {
-                    switch (balloonColor.Next(1, 2))
-                    {
-                        case 1:
-                            balloons.Add(new Balloon("Blue", random.Next(1, 20)));
-                            break;
-                        case 2:
-                            balloons.Add(new Balloon("Black", random.Next(1, 20)));
-                            break;
-
-                    }
-
-                    balloons.Add(new Balloon("Blue", random.Next(1, 20)));
-                    arrows.Add(new Arrow("Blue", random.Next(1, 20)));
+                    result = "Red missed.";
                 }
             }
+            else if (arrow.Color == "Blue")
+            {
+                if (skipTurnBlue)
+                {
+                    result = "Blue skipped.";
+                    skipTurnBlue = false;
+                }
+                else if (balloon.Color == "Blue" && arrow.Size >= balloon.Size)
+                {
+                    scoreBlueTeam++;
+                    result = "Blue scored a point.";
+                }
+                else if (balloon.Color == "Black" && arrow.Size >= balloon.Size)
+                {
+                    skipTurnBlue = true;
+                    result = "Blue hit black balloon. Skips next turn.";
+                }
+                else
+                {
+                    result = "Blue missed.";
+                }
+            }
+
+            // Raise the event
+            PlayTurnHappened?.Invoke(this, new PlayEventArgs(
+                i + 1,
+                arrow.Color,
+                balloon.Color,
+                arrow.Size,
+                balloon.Size,
+                result
+            ));
         }
-        public void Game()
+
+        public override string ToString()
         {
-            bool skipTurnBlue = false;
-            bool skipTurnRed = false;
+            return $"Final Scores:\nRed Team: {scoreRedTeam} points\nBlue Team: {scoreBlueTeam} points";
+        }
+
+        public void PlayRotation()
+        {
+            Random random = new Random();
 
             for (int i = 0; i < 20; i++)
             {
-                if (arrows[i].Color == "Red" && balloons[i].Color == "Red")
-                {
-                    if (skipTurnRed)
-                    {
-                        Console.WriteLine("Red skipped.");
-                        skipTurnRed = false;
+                int balloonSize = random.Next(1, 20);
+                int arrowSize = random.Next(1, 20);
+                int colorChoice = random.Next(1, 3);
 
-                    }
-                    else if (arrows[i].Size >= balloons[i].Size)
-                    {
-                        Console.WriteLine("Red point.");
-                        scoreRedTeam++;
-                    }
-                }
-                else if (arrows[i].Color == "Blue" && balloons[i].Color == "Blue")
+                if (i % 2 == 0)
                 {
-                    if (skipTurnBlue)
-                    {
-                        Console.WriteLine("Blue skipped.");
-                        skipTurnBlue = false;
-                        continue;
-                    }
-                    else if (arrows[i].Size >= balloons[i].Size)
-                    {
-                        Console.WriteLine("Blue point.");
-                        scoreBlueTeam++;
-                    }
+                    string balloonColor = colorChoice == 1 ? "Red" : "Black";
+                    CreateBallon(balloonColor, balloonSize);
+                    CreateArrow("Red", arrowSize);
                 }
-                else if (arrows[i].Color == "Red" && balloons[i].Color == "Black")
+                else
                 {
-                    if (skipTurnRed)
-                    {
-                        Console.WriteLine("Red skipped.");
-                        skipTurnRed = false;
-                        continue;
-                    }
-                    else if (arrows[i].Size >= balloons[i].Size)
-                    {
-                        Console.WriteLine("Red black.");
-                        skipTurnRed = true;
-                    }
+                    string balloonColor = colorChoice == 1 ? "Blue" : "Black";
+                    CreateBallon(balloonColor, balloonSize);
+                    CreateArrow("Blue", arrowSize);
                 }
-                else if (arrows[i].Color == "Blue" && balloons[i].Color == "Black")
-                {
-                    if (skipTurnBlue)
-                    {
-                        Console.WriteLine("Blue skipped.");
-                        skipTurnBlue = false;
-                        continue;
-                    }
-                    else if (arrows[i].Size >= balloons[i].Size)
-                    {
-                        Console.WriteLine("Blue black.");
-                        skipTurnBlue = true;
-                    }
-                }
-
             }
+        }
 
-        }
-        public override string ToString()
+        private void CreateBallon(string color, int size)
         {
-            return $"The Red team has {scoreRedTeam} points.\n" +
-            $"The Blue team has {scoreBlueTeam} points.";
+            Balloons.Add(new Balloon(color, size));
         }
+
+        private void CreateArrow(string color, int size)
+        {
+            Arrows.Add(new Arrow(color, size));
+        }
+
+
+
     }
 }

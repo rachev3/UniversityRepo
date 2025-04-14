@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Downloads\\Balloons-main\\Balloons-main\\Balloons\\Balloons.csproj": {}
+    "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\Balloons\\Balloons\\Balloons.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Downloads\\Balloons-main\\Balloons-main\\Balloons\\Balloons.csproj": {
+    "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\Balloons\\Balloons\\Balloons.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Downloads\\Balloons-main\\Balloons-main\\Balloons\\Balloons.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\Balloons\\Balloons\\Balloons.csproj",
         "projectName": "Balloons",
-        "projectPath": "C:\\Users\\User\\Downloads\\Balloons-main\\Balloons-main\\Balloons\\Balloons.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\Balloons\\Balloons\\Balloons.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Downloads\\Balloons-main\\Balloons-main\\Balloons\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\Balloons\\Balloons\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

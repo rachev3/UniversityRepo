@@ -10,11 +10,23 @@ namespace Balloons
     {
         static void Main(string[] args)
         {
-            Play play = new Play();
-            play.PlayRotaion();
-            play.Game();
-            Console.WriteLine(play);
+            var play = new Play();
 
+            // Subscribe to event
+            play.PlayTurnHappened += OnPlayTurn;
+
+            play.Game();
+
+            Console.WriteLine("Press any key to exit...");
+            Console.ReadKey();
+
+        }
+        private static void OnPlayTurn(object sender, PlayEventArgs e)
+        {
+            Console.WriteLine($"Turn {e.TurnNumber}:");
+            Console.WriteLine($"Arrow - {e.ArrowColor} ({e.ArrowSize}) | Balloon - {e.BalloonColor} ({e.BalloonSize})");
+            Console.WriteLine($"Result: {e.Result}");
+            Console.WriteLine();
         }
     }
 }
