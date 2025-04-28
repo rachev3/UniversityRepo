@@ -12,7 +12,6 @@ namespace Balloons
         {
             var play = new Play();
 
-            // Subscribe to event
             play.PlayTurnHappened += OnPlayTurn;
 
             play.Game();

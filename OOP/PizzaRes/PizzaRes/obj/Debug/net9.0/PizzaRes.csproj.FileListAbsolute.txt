@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\bin\Debug\net9.0\PizzaRes.exe
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\bin\Debug\net9.0\PizzaRes.deps.json
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\bin\Debug\net9.0\PizzaRes.runtimeconfig.json
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\bin\Debug\net9.0\PizzaRes.dll
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\bin\Debug\net9.0\PizzaRes.pdb
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\obj\Debug\net9.0\PizzaRes.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\obj\Debug\net9.0\PizzaRes.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\obj\Debug\net9.0\PizzaRes.AssemblyInfo.cs
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\obj\Debug\net9.0\PizzaRes.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\obj\Debug\net9.0\PizzaRes.sourcelink.json
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\obj\Debug\net9.0\PizzaRes.dll
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\obj\Debug\net9.0\refint\PizzaRes.dll
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\obj\Debug\net9.0\PizzaRes.pdb
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\obj\Debug\net9.0\PizzaRes.genruntimeconfig.cache
+C:\Users\User\Desktop\Uni C#\OOP\PizzaRes\PizzaRes\obj\Debug\net9.0\ref\PizzaRes.dll
