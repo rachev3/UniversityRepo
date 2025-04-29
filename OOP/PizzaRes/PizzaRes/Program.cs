@@ -1,33 +1,87 @@
 ﻿using PizzaRes.Models;
 
+List<Order> orders = new List<Order>();
 List<Day> days = new List<Day>();
 
-string command = "";
+string command;
 
-while (command != "end")
+while ((command = Console.ReadLine()) != "end")
 {
-    command = Console.ReadLine();
     string[] commandParts = command.Split(' ');
 
     if (commandParts.Length > 6 || commandParts.Length < 5)
     {
-        Console.WriteLine("Error command");
-        break;
+        throw new ArgumentException("Wrong command.");
     }
-    int counter = 1;
-    for (int i = commandParts.Length - 1; i >= 0; i--)
+
+    if (!DateOnly.TryParse(commandParts[^1], out DateOnly day))
     {
-        if (counter == 1)
-        {
-        }
-        else if (counter == 2)
-        {
-
-        }
-        else if (counter == 3)
-        { 
-        }
-        else()
+        throw new ArgumentException("Invalid date format. Expected dd.MM.yyyy");
     }
 
+    string size = commandParts[^2];
+    if (!int.TryParse(commandParts[^3], out int count))
+    {
+        throw new ArgumentException("Invalid count. Must be a number.");
+    }
+
+    string name = string.Join(" ", commandParts[..^3]);
+
+    if (name == "Pizza Boss` Pizza")
+    {
+        BossPizza bossPizza = new BossPizza(size);
+        Order order = new Order(bossPizza, count, day);
+
+        Day existingDay = days.FirstOrDefault(d => d.Date == day);
+        if (existingDay == null)
+        {
+            Day newDay = new Day(day);
+            newDay.AddOrder(order);
+            days.Add(newDay);
+        }
+        else
+        {
+            existingDay.AddOrder(order);
+        }
+
+        orders.Add(order);
+    }
+    else if (name == "Pizza Margarita")
+    {
+        MargaritaPizza margaritaPizza = new MargaritaPizza(size);
+        Order order = new Order(margaritaPizza, count, day);
+
+        Day existingDay = days.FirstOrDefault(d => d.Date == day);
+        if (existingDay == null)
+        {
+            Day newDay = new Day(day);
+            newDay.AddOrder(order);
+            days.Add(newDay);
+        }
+        else
+        {
+            existingDay.AddOrder(order);
+        }
+
+        orders.Add(order);
+    }
+    else
+    {
+        throw new ArgumentException("Wrong pizza name. Only Pizza Margarita and Pizza Boss` Pizza allowed.");
+    }
+}
+Console.WriteLine();
+Console.WriteLine("Output:");
+foreach(var order in orders)
+{
+    Console.WriteLine();
+    order.Info();
+}
+Console.WriteLine();
+Console.WriteLine("Cash register reset:");
+Console.WriteLine();
+foreach (var day in days)
+{
+    day.Info();
+    Console.WriteLine();
 }

@@ -1,0 +1,26 @@
+Pizza Margarita 2 small 01.01.2024
+Pizza Margarita 1 medium 02.01.2024
+Pizza Margarita 3 large 03.01.2024
+Pizza Boss` Pizza 1 small 01.01.2024
+Pizza Boss` Pizza 2 medium 02.01.2024
+Pizza Boss` Pizza 1 large 03.01.2024
+end
+
+Pizza Margherita 1 small 01.01.2024
+end
+
+Pizza Margarita 1 extra 01.01.2024
+end
+
+Pizza Margarita two small 01.01.2024
+end
+
+Pizza Margarita 1 small
+end 
+
+Pizza Margarita 1 SMALL 04.01.2024
+end
+
+Pizza Margarita 1 small 01.01.2024
+Pizza Boss` Pizza 1 small 01.01.2024
+end

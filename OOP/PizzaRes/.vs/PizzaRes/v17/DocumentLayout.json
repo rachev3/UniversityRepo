@@ -3,28 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|c:\\users\\user\\desktop\\uni c#\\oop\\pizzares\\pizzares\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|solutionrelative:pizzares\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|c:\\users\\user\\desktop\\uni c#\\oop\\pizzares\\pizzares\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|solutionrelative:pizzares\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|c:\\users\\user\\desktop\\uni c#\\oop\\pizzares\\pizzares\\models\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|solutionrelative:pizzares\\models\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|c:\\users\\user\\desktop\\uni c#\\oop\\pizzares\\pizzares\\models\\margaritapizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|solutionrelative:pizzares\\models\\margaritapizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|c:\\users\\user\\desktop\\uni c#\\oop\\pizzares\\pizzares\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|solutionrelative:pizzares\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|c:\\users\\user\\desktop\\uni c#\\oop\\pizzares\\pizzares\\models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|solutionrelative:pizzares\\models\\command.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|c:\\users\\user\\desktop\\uni c#\\oop\\pizzares\\pizzares\\models\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|solutionrelative:pizzares\\models\\day.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|c:\\users\\user\\desktop\\uni c#\\oop\\pizzares\\pizzares\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|solutionrelative:pizzares\\models\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|c:\\users\\user\\desktop\\uni c#\\oop\\pizzares\\pizzares\\models\\bosspizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|solutionrelative:pizzares\\models\\bosspizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|c:\\users\\user\\desktop\\uni c#\\oop\\pizzares\\pizzares\\interfaces\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|solutionrelative:pizzares\\interfaces\\pizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|c:\\users\\user\\desktop\\uni c#\\oop\\pizzares\\pizzares\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|solutionrelative:pizzares\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|c:\\users\\user\\desktop\\uni c#\\oop\\pizzares\\pizzares\\interfaces\\ipizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A88A7E81-482E-4DDE-B922-F0A86D3C3643}|PizzaRes\\PizzaRes.csproj|solutionrelative:pizzares\\interfaces\\ipizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,42 +46,64 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Program.cs",
-              "RelativeDocumentMoniker": "PizzaRes\\Program.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Program.cs",
-              "RelativeToolTip": "PizzaRes\\Program.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAcwB0AAAAOAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "BossPizza.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\BossPizza.cs",
+              "RelativeDocumentMoniker": "PizzaRes\\Models\\BossPizza.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\BossPizza.cs",
+              "RelativeToolTip": "PizzaRes\\Models\\BossPizza.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAYwAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:36:34.931Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T10:01:21.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Command.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Command.cs",
-              "RelativeDocumentMoniker": "PizzaRes\\Models\\Command.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Command.cs",
-              "RelativeToolTip": "PizzaRes\\Models\\Command.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Pizza.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Pizza.cs",
+              "RelativeDocumentMoniker": "PizzaRes\\Models\\Pizza.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Pizza.cs",
+              "RelativeToolTip": "PizzaRes\\Models\\Pizza.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAwwBUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T12:09:54.657Z",
+              "WhenOpened": "2025-04-28T11:44:36.272Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MargaritaPizza.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\MargaritaPizza.cs",
+              "RelativeDocumentMoniker": "PizzaRes\\Models\\MargaritaPizza.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\MargaritaPizza.cs",
+              "RelativeToolTip": "PizzaRes\\Models\\MargaritaPizza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAYwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-29T10:01:33.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Program.cs",
+              "RelativeDocumentMoniker": "PizzaRes\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Program.cs",
+              "RelativeToolTip": "PizzaRes\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-28T12:36:34.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Day.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Day.cs",
               "RelativeDocumentMoniker": "PizzaRes\\Models\\Day.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Day.cs",
               "RelativeToolTip": "PizzaRes\\Models\\Day.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:46:12.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T11:46:12.041Z"
             },
             {
               "$type": "Document",
@@ -87,36 +113,21 @@
               "RelativeDocumentMoniker": "PizzaRes\\Models\\Order.cs",
               "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Order.cs",
               "RelativeToolTip": "PizzaRes\\Models\\Order.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:45:20.144Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T11:45:20.144Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Pizza.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Pizza.cs",
-              "RelativeDocumentMoniker": "PizzaRes\\Models\\Pizza.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Pizza.cs",
-              "RelativeToolTip": "PizzaRes\\Models\\Pizza.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAoAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "IPizza.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Interfaces\\IPizza.cs",
+              "RelativeDocumentMoniker": "PizzaRes\\Interfaces\\IPizza.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Interfaces\\IPizza.cs",
+              "RelativeToolTip": "PizzaRes\\Interfaces\\IPizza.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:44:36.272Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Pizza.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Interfaces\\Pizza.cs",
-              "RelativeDocumentMoniker": "PizzaRes\\Interfaces\\Pizza.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Interfaces\\Pizza.cs",
-              "RelativeToolTip": "PizzaRes\\Interfaces\\Pizza.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:40:28.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T11:40:28.673Z"
             }
           ]
         }
