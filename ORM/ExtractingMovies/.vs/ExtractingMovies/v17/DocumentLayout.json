@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\ExtractingMovies\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A3A7989B-BABF-428A-92A6-87029A039068}|ExtractingMovies\\ExtractingMovies.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\extractingmovies\\extractingmovies\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3A7989B-BABF-428A-92A6-87029A039068}|ExtractingMovies\\ExtractingMovies.csproj|solutionrelative:extractingmovies\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3A7989B-BABF-428A-92A6-87029A039068}|ExtractingMovies\\ExtractingMovies.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\extractingmovies\\extractingmovies\\cast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3A7989B-BABF-428A-92A6-87029A039068}|ExtractingMovies\\ExtractingMovies.csproj|solutionrelative:extractingmovies\\cast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3A7989B-BABF-428A-92A6-87029A039068}|ExtractingMovies\\ExtractingMovies.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\extractingmovies\\extractingmovies\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3A7989B-BABF-428A-92A6-87029A039068}|ExtractingMovies\\ExtractingMovies.csproj|solutionrelative:extractingmovies\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3A7989B-BABF-428A-92A6-87029A039068}|ExtractingMovies\\ExtractingMovies.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\extractingmovies\\extractingmovies\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3A7989B-BABF-428A-92A6-87029A039068}|ExtractingMovies\\ExtractingMovies.csproj|solutionrelative:extractingmovies\\director.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A3A7989B-BABF-428A-92A6-87029A039068}|ExtractingMovies\\ExtractingMovies.csproj|c:\\users\\user\\desktop\\uni c#\\orm\\extractingmovies\\extractingmovies\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A3A7989B-BABF-428A-92A6-87029A039068}|ExtractingMovies\\ExtractingMovies.csproj|solutionrelative:extractingmovies\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Cast.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\ExtractingMovies\\ExtractingMovies\\Cast.cs",
+              "RelativeDocumentMoniker": "ExtractingMovies\\Cast.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\ExtractingMovies\\ExtractingMovies\\Cast.cs",
+              "RelativeToolTip": "ExtractingMovies\\Cast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:34:00.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Director.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\ExtractingMovies\\ExtractingMovies\\Director.cs",
+              "RelativeDocumentMoniker": "ExtractingMovies\\Director.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\ExtractingMovies\\ExtractingMovies\\Director.cs",
+              "RelativeToolTip": "ExtractingMovies\\Director.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:33:52.175Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Genre.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\ExtractingMovies\\ExtractingMovies\\Genre.cs",
+              "RelativeDocumentMoniker": "ExtractingMovies\\Genre.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\ExtractingMovies\\ExtractingMovies\\Genre.cs",
+              "RelativeToolTip": "ExtractingMovies\\Genre.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T06:24:26.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\ExtractingMovies\\ExtractingMovies\\Movie.cs",
+              "RelativeDocumentMoniker": "ExtractingMovies\\Movie.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\ExtractingMovies\\ExtractingMovies\\Movie.cs",
+              "RelativeToolTip": "ExtractingMovies\\Movie.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T05:38:52.855Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\ExtractingMovies\\ExtractingMovies\\Program.cs",
+              "RelativeDocumentMoniker": "ExtractingMovies\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\ORM\\ExtractingMovies\\ExtractingMovies\\Program.cs",
+              "RelativeToolTip": "ExtractingMovies\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T05:30:17.939Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

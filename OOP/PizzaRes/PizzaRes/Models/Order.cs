@@ -3,29 +3,28 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using PizzaRes.Interfaces;
 
 namespace PizzaRes.Models
 {
     public class Order
     {
-        public Order(Pizza pizza, int count, DateOnly date)
+        public Order(IOrderItem item, int count, DateOnly date)
         {
-            Pizza = pizza;
+            Item = item;
             Count = count;
             Date = date;
         }
-        public Pizza Pizza { get; }
+        public IOrderItem Item { get; }
         public int Count { get; }
-        public double TotalPrice => Count * Pizza.Price;
+        public double TotalPrice => Count * Item.Price;
         public DateOnly Date { get; }
 
         public void Info()
         {
-            Console.WriteLine($"{Pizza.Name} preparing...");
-            Console.WriteLine($"Pizza dough {Count}*{Pizza.Dough} = {Count*Pizza.Dough}");
-            Console.WriteLine($"{Pizza.Ingredient} {Count}*{Pizza.IngredientQuantity} = {Count*Pizza.IngredientQuantity}");
+            Console.WriteLine($"{Item.Name} preparing...");
+            Item.Info();
             Console.WriteLine($"Total: {TotalPrice}$");
         }
-
     }
 }

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace PizzaRes.Models
 {
-    public abstract class Pizza : IPizza
+    public abstract class Pizza : IPizza, IOrderItem
     {
         protected Pizza(string size)
         {
@@ -19,7 +19,7 @@ namespace PizzaRes.Models
         public string Size { get; private set; }
         public int Dough { get; private set; }
         public double Price { get; protected set; }
-        public string Ingredient { get; protected set;}
+        public string Ingredient { get; protected set; }
         public int IngredientQuantity { get; protected set; }
         private void SetDough()
         {
