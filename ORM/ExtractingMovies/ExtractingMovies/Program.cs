@@ -3,7 +3,6 @@ using ExtractingMovies;
 using System.Data;
 using System.Globalization;
 using System.Text;
-using System.Text.RegularExpressions;
 
 Encoding.RegisterProvider(CodePagesEncodingProvider.Instance);
 

@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace PizzaRes.Models
 {
-    public class MargaritaPizza: Pizza
+    public class MargaritaPizza : Pizza
     {
-        public MargaritaPizza(string size):base(size)
+        public MargaritaPizza(string size, int count) : base(size, count)
         {
             Name = "Pizza Margarita";
             Ingredient = "Tomato";

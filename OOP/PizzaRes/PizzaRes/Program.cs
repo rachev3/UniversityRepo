@@ -5,6 +5,8 @@ List<Day> days = new List<Day>();
 
 string command;
 
+
+
 while ((command = Console.ReadLine()) != "end")
 {
     string[] commandParts = command.Split(' ');
@@ -27,52 +29,26 @@ while ((command = Console.ReadLine()) != "end")
 
     string name = string.Join(" ", commandParts[..^3]);
 
-    if (name == "Pizza Boss` Pizza")
+    Pizza pizza = CreatePizza(name, size, count);
+    Order order = new Order(pizza, day);
+
+    Day existingDay = days.FirstOrDefault(d => d.Date == day);
+    if (existingDay == null)
     {
-        BossPizza bossPizza = new BossPizza(size);
-        Order order = new Order(bossPizza, count, day);
-
-        Day existingDay = days.FirstOrDefault(d => d.Date == day);
-        if (existingDay == null)
-        {
-            Day newDay = new Day(day);
-            newDay.AddOrder(order);
-            days.Add(newDay);
-        }
-        else
-        {
-            existingDay.AddOrder(order);
-        }
-
-        orders.Add(order);
-    }
-    else if (name == "Pizza Margarita")
-    {
-        MargaritaPizza margaritaPizza = new MargaritaPizza(size);
-        Order order = new Order(margaritaPizza, count, day);
-
-        Day existingDay = days.FirstOrDefault(d => d.Date == day);
-        if (existingDay == null)
-        {
-            Day newDay = new Day(day);
-            newDay.AddOrder(order);
-            days.Add(newDay);
-        }
-        else
-        {
-            existingDay.AddOrder(order);
-        }
-
-        orders.Add(order);
+        Day newDay = new Day(day);
+        newDay.AddOrder(order);
+        days.Add(newDay);
     }
     else
     {
-        throw new ArgumentException("Wrong pizza name. Only Pizza Margarita and Pizza Boss` Pizza allowed.");
+        existingDay.AddOrder(order);
     }
+
+    orders.Add(order);
 }
 Console.WriteLine();
 Console.WriteLine("Output:");
-foreach(var order in orders)
+foreach (var order in orders)
 {
     Console.WriteLine();
     order.Info();
@@ -84,4 +60,14 @@ foreach (var day in days)
 {
     day.Info();
     Console.WriteLine();
+}
+
+Pizza CreatePizza(string name, string size, int count)
+{
+    return name switch
+    {
+        "Pizza Boss` Pizza" => new BossPizza(size, count),
+        "Pizza Margarita" => new MargaritaPizza(size, count),
+        _ => throw new ArgumentException("Wrong pizza name. Only Pizza Margarita and Pizza Boss` Pizza allowed.")
+    };
 }

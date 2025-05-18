@@ -9,16 +9,14 @@ namespace PizzaRes.Models
 {
     public class Order
     {
-        public Order(IOrderItem item, int count, DateOnly date)
+        public Order(IOrderItem item, DateOnly date)
         {
             Item = item;
-            Count = count;
             Date = date;
         }
         public IOrderItem Item { get; }
-        public int Count { get; }
-        public double TotalPrice => Count * Item.Price;
         public DateOnly Date { get; }
+        public double TotalPrice => Item.Price * Item.Count;
 
         public void Info()
         {

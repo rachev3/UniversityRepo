@@ -10,6 +10,7 @@ namespace PizzaRes.Interfaces
     {
         string Name { get; }
         double Price { get; }
+        int Count { get; }
         void Info();
     }
 }

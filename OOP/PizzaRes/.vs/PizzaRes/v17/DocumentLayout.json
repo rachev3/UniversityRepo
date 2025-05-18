@@ -54,12 +54,11 @@
               "Title": "IOrderItem.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Interfaces\\IOrderItem.cs",
               "RelativeDocumentMoniker": "PizzaRes\\Interfaces\\IOrderItem.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Interfaces\\IOrderItem.cs*",
-              "RelativeToolTip": "PizzaRes\\Interfaces\\IOrderItem.cs*",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Interfaces\\IOrderItem.cs",
+              "RelativeToolTip": "PizzaRes\\Interfaces\\IOrderItem.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-30T19:33:30.742Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-30T19:33:30.742Z"
             },
             {
               "$type": "Document",
@@ -71,8 +70,7 @@
               "RelativeToolTip": "PizzaRes\\Models\\BossPizza.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAYwAwAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-29T10:01:21.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-29T10:01:21.753Z"
             },
             {
               "$type": "Document",
@@ -80,12 +78,11 @@
               "Title": "Pizza.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Pizza.cs",
               "RelativeDocumentMoniker": "PizzaRes\\Models\\Pizza.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Pizza.cs*",
-              "RelativeToolTip": "PizzaRes\\Models\\Pizza.cs*",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Pizza.cs",
+              "RelativeToolTip": "PizzaRes\\Models\\Pizza.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwCoAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:44:36.272Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T11:44:36.272Z"
             },
             {
               "$type": "Document",
@@ -121,8 +118,7 @@
               "RelativeToolTip": "PizzaRes\\Models\\Day.cs",
               "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:46:12.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T11:46:12.041Z"
             },
             {
               "$type": "Document",
@@ -130,8 +126,8 @@
               "Title": "Order.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Order.cs",
               "RelativeDocumentMoniker": "PizzaRes\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Order.cs*",
-              "RelativeToolTip": "PizzaRes\\Models\\Order.cs*",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Models\\Order.cs",
+              "RelativeToolTip": "PizzaRes\\Models\\Order.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-28T11:45:20.144Z",
@@ -143,12 +139,11 @@
               "Title": "IPizza.cs",
               "DocumentMoniker": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Interfaces\\IPizza.cs",
               "RelativeDocumentMoniker": "PizzaRes\\Interfaces\\IPizza.cs",
-              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Interfaces\\IPizza.cs*",
-              "RelativeToolTip": "PizzaRes\\Interfaces\\IPizza.cs*",
+              "ToolTip": "C:\\Users\\User\\Desktop\\Uni C#\\OOP\\PizzaRes\\PizzaRes\\Interfaces\\IPizza.cs",
+              "RelativeToolTip": "PizzaRes\\Interfaces\\IPizza.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T11:40:28.673Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-28T11:40:28.673Z"
             }
           ]
         }

@@ -9,7 +9,7 @@ namespace PizzaRes.Interfaces
     public interface IPizza
     {
         public string Name { get; }
-        public string Size { get;}
+        public string Size { get; }
         public int Dough { get; }
         public double Price { get; }
         public string Ingredient { get; }

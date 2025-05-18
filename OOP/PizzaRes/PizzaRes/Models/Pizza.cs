@@ -9,9 +9,10 @@ namespace PizzaRes.Models
 {
     public abstract class Pizza : IPizza, IOrderItem
     {
-        protected Pizza(string size)
+        protected Pizza(string size, int count)
         {
             Size = size;
+            Count = count;
             SetDough();
         }
 
@@ -21,6 +22,15 @@ namespace PizzaRes.Models
         public double Price { get; protected set; }
         public string Ingredient { get; protected set; }
         public int IngredientQuantity { get; protected set; }
+
+        public int Count { get; set; }
+
+        public void Info()
+        {
+            Console.WriteLine($"Pizza dough {Count}*{Dough} = {Dough * Count}g");
+            Console.WriteLine($"{Ingredient}*{IngredientQuantity} = {IngredientQuantity * Count}");
+        }
+
         private void SetDough()
         {
             switch (Size?.ToLower())

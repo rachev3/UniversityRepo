@@ -15,21 +15,21 @@ namespace PizzaRes.Models
         }
         public DateOnly Date { get; }
         public int TotalPizzas { get; private set; }
-        public int MargaritasCount { get; private set; }
-        public int BossPizzasCount { get; private set; }
         public double TotalIncome { get; private set; }
-        public List<IOrderItem> Orders { get; private set; } = new List<IOrderItem>();
+        public List<Order> Orders { get; private set; } = new List<Order>();
         public Dictionary<string, int> PizzaCounts { get; private set; } = new();
 
-        public void AddOrder(IOrderItem order)
+        public void AddOrder(Order order)
         {
             Orders.Add(order);
-            TotalPizzas += order.Count;
+            if (order.Item is Pizza pizza)
+            {
+                TotalPizzas += pizza.Count;
+                if (!PizzaCounts.ContainsKey(pizza.Name))
+                    PizzaCounts[pizza.Name] = 0;
+                PizzaCounts[pizza.Name] += pizza.Count;
+            }
             TotalIncome += order.TotalPrice;
-
-            if (!PizzaCounts.ContainsKey(order.Name))
-                PizzaCounts[order.Name] = 0;
-            PizzaCounts[order.Name] += order.Count;
         }
         public void Info()
         {
