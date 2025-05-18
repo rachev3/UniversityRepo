@@ -23,7 +23,7 @@ namespace PizzaRes.Models
         public string Ingredient { get; protected set; }
         public int IngredientQuantity { get; protected set; }
 
-        public int Count { get; set; }
+        public int Count { get; protected set; }
 
         public void Info()
         {
